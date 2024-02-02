@@ -1,0 +1,14 @@
+[debug] [2023-12-16T10:50:46.017Z] ----------------------------------------------------------------------
+[debug] [2023-12-16T10:50:46.019Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Morteza\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2023-12-16T10:50:46.019Z] CLI Version:   13.0.2
+[debug] [2023-12-16T10:50:46.019Z] Platform:      win32
+[debug] [2023-12-16T10:50:46.019Z] Node Version:  v20.10.0
+[debug] [2023-12-16T10:50:46.019Z] Time:          Sat Dec 16 2023 14:20:46 GMT+0330 (Iran Standard Time)
+[debug] [2023-12-16T10:50:46.020Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-12-16T10:50:46.021Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[debug] [2023-12-16T10:50:46.406Z] *** [apiv2] error from fetch(https://firebase-public.firebaseio.com/cli.json, {"headers":{},"method":"GET"}): FetchError: request to https://firebase-public.firebaseio.com/cli.json failed, reason: Client network socket disconnected before secure TLS connection was established
+[warn] !  Unable to fetch the CLI MOTD and remote config. This is not a fatal error, but may indicate an issue with your network connection. 
+[debug] [2023-12-16T10:50:46.408Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
