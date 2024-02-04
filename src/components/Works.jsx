@@ -10,7 +10,7 @@ import { WebappProjectCard } from "../shared/WebappProjectCard";
 const Works = () => {
   return (
     <Fragment>
-      <SectionHeader sectionHeader={"Projects."} sectionParagraph={"My work"} />
+      <SectionHeader sectionHeader={"Some Projects."} sectionParagraph={"My work"} />
       <div>
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}

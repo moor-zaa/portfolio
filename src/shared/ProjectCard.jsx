@@ -3,8 +3,9 @@ import { Tilt } from "react-tilt";
 import { github } from "../assets";
 import { fadeIn, slideIn } from "../utils/motion";
 import { motion } from "framer-motion";
+import ArrowSvg from "../assets/svgs/ArrowSvg";
 
-export const ProjectCard = ({ index, name, description, tags, image }) => {
+export const ProjectCard = ({ index, name, description, tags, image, url }) => {
   return (
     <motion.div variants={slideIn("up", "spring", index * 0.5, 0.75)}>
       <div
@@ -29,12 +30,23 @@ export const ProjectCard = ({ index, name, description, tags, image }) => {
             <h3 className="text-white font-bold text-[24px]">{name}</h3>
             <p className="mt-2 text-secondary text-[14px]">{description}</p>
           </div>
-          <div className="mt-4 flex flex-wrap gap-2 relative">
+          <div className="mt-4 flex flex-wrap items-center gap-2 relative">
             {tags.map((tag) => (
               <p key={tag.name} className={`text-[14px] ${tag.color}`}>
                 #{tag.name}
               </p>
             ))}
+            <a
+              href={url}
+              target="_blank"
+              rel="noreferrer"
+              className="ml-auto mr-3 flex items-center"
+            >
+              <div className="mx-1">Explore</div>
+              <div>
+                <ArrowSvg />
+              </div>
+            </a>
           </div>
         </div>
       </div>
@@ -48,4 +60,5 @@ ProjectCard.propTypes = {
   image: PropTypes.string,
   source_code_link: PropTypes.string,
   name: PropTypes.string,
+  url: PropTypes.string,
 };

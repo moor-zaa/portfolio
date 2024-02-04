@@ -1,6 +1,8 @@
 import PropTypes from "prop-types";
 import { fadeIn, slideIn } from "../utils/motion";
 import { motion } from "framer-motion";
+import ArrowSvg from "../assets/svgs/ArrowSvg";
+import Loading from "../assets/svgs/Loading";
 
 export const WebappProjectCard = ({
   index,
@@ -8,6 +10,7 @@ export const WebappProjectCard = ({
   description,
   tags,
   image,
+  url,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -43,6 +46,31 @@ export const WebappProjectCard = ({
                     #{tag.name}
                   </p>
                 ))}
+                {url ? (
+                  <a
+                    href={url}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="ml-auto mr-3 flex items-center"
+                  >
+                    <div className="mx-1">Explore</div>
+                    <div>
+                      <ArrowSvg />
+                    </div>
+                  </a>
+                ) : (
+                  <a
+                    href={url}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="ml-auto mr-3 flex items-center"
+                  >
+                    <div className="mx-1">Developing</div>
+                    <div>
+                      <Loading />
+                    </div>
+                  </a>
+                )}
               </div>
             </div>
           </div>
@@ -58,4 +86,5 @@ WebappProjectCard.propTypes = {
   image: PropTypes.string,
   source_code_link: PropTypes.string,
   name: PropTypes.string,
+  url: PropTypes.string,
 };

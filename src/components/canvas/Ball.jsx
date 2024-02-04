@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unknown-property */
-import { Suspense } from "react";
+import { Suspense, useRef } from "react";
 import { Canvas } from "@react-three/fiber";
 import {
   Decal,
@@ -14,14 +14,14 @@ import CanvasLoader from "../Loader";
 
 const Ball = ({ imgUrl }) => {
   const [decal] = useTexture([imgUrl]);
+  const ballRef = useRef();
 
   return (
     <Float>
       <ambientLight intensity={0.25} />
       <directionalLight position={[0, 0, 0.05]} intensity={0.4} />
-      <mesh receiveShadow scale={3}>
+      <mesh rotationSpeed={0.05} receiveShadow scale={3} ref={ballRef}>
         <icosahedronGeometry args={[1, 1]} />
-        {/* <sphereGeometry args={[1]} /> */}
         <meshStandardMaterial
           color={"#8fb7e9"}
           polygonOffset

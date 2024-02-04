@@ -205,7 +205,7 @@ const testimonials = [
     designation: "Backend developer",
     company: "MediaMarktSaturn",
     image:
-      "https://media.licdn.com/dms/image/D4E03AQHbGdZDPSppxw/profile-displayphoto-shrink_200_200/0/1693998486764?e=1706745600&v=beta&t=81wRFifaTNyfwSMC1KjoX6N3BWmFYTLsOMSlex5oFxU",
+      "https://media.licdn.com/dms/image/D4E03AQHbGdZDPSppxw/profile-displayphoto-shrink_100_100/0/1693998486764?e=1712793600&v=beta&t=-kGXCY6gEcOqP5B26ctnVNMRlumT0hbHxZ3BRae2BhQ",
   },
 ];
 
@@ -234,6 +234,7 @@ const projects = [
     ],
     webapp: false,
     image: qubyWebsite,
+    url: "https://quby.ir",
     // source_code_link: "https://github.com/",
   },
   {
@@ -260,7 +261,6 @@ const projects = [
       },
     ],
     image: bencherz,
-    source_code_link: "https://github.com/",
   },
   {
     name: "QUBY Webapp",
@@ -286,7 +286,7 @@ const projects = [
       },
     ],
     image: qubyWebapp,
-    source_code_link: "https://github.com/",
+    url: "https://app.quby.ir",
   },
   {
     name: "A-EYES Webapp",
@@ -312,7 +312,7 @@ const projects = [
       },
     ],
     image: aEyesWebapp,
-    source_code_link: "https://github.com/",
+    url: "https://a-eyes.app",
   },
 ];
 

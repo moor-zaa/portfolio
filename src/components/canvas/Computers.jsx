@@ -16,18 +16,10 @@ const Computers = () => {
       <hemisphereLight intensity={2} groundColor="black" />
 
       {/* Directional light for front illumination */}
-      <directionalLight
-        position={[25, 5, 5]}
-        intensity={2}
-        castShadow
-      />
+      <directionalLight position={[25, 5, 5]} intensity={2} castShadow />
 
       {/* Directional light for back illumination */}
-      <directionalLight
-        position={[-5, -2, -5]}
-        intensity={2}
-        castShadow
-      />
+      <directionalLight position={[-5, -2, -5]} intensity={2} castShadow />
 
       <pointLight intensity={20} position={[3, 0, 2]} />
       <pointLight intensity={4} position={[-3, -1, -2]} />
