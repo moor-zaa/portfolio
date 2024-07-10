@@ -54,10 +54,10 @@ const Hero = () => {
           </p>
           <motion.a
             initial={{ width: 0, opacity: 0 }}
-            animate={{ width: 160, opacity: 1 }}
+            animate={{ width: 202, opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.1, easings: "ease-out" }}
             onClick={handleLogEvent}
-            href="/CV - Morteza Alipour.pdf"
+            href="/Resume - Morteza Alipour.pdf"
             download
             className="download-cv"
           >
@@ -67,12 +67,14 @@ const Hero = () => {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.6, duration: 0.5 }}
             >
-              Download CV
+              Download Resume
             </motion.div>
           </motion.a>
         </div>
       </div>
-      <div className="computer-canvas-container"><ComputersCanvas /></div>
+      <div className="computer-canvas-container">
+        <ComputersCanvas />
+      </div>
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
           <div className="w-[22px] h-[40px] rounded-3xl border-2 border-secondary flex justify-center items-start">

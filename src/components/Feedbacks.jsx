@@ -14,6 +14,7 @@ import "swiper/css/pagination";
 import { Autoplay, Pagination } from "swiper/modules";
 import { useRef, useState } from "react";
 import Modal from "../shared/Modal";
+import ArrowSvg from "../assets/svgs/ArrowSvg";
 
 const Feedbacks = () => {
   const ref = useRef();
@@ -43,17 +44,22 @@ const Feedbacks = () => {
 
   return (
     <div className="mt-12 bg-black-100 rounded-[20px] relative">
-      <div className="layer-one" style={{top: "30%", width: "80%", right: "10%"}}></div>
+      <div
+        className="layer-one"
+        style={{ top: "30%", width: "80%", right: "10%" }}
+      ></div>
       <div
         className={`${styles.padding} project-card rounded-2xl min-h-[300px]`}
       >
         <Modal isOpen={feedbackToshow} closeModal={closeModal}>
-          {feedbackToshow && <FeedbackCard
-            key={feedbackToshow?.name}
-            testimonial={feedbackToshow}
-            {...feedbackToshow}
-            animation={false}
-          />}
+          {feedbackToshow && (
+            <FeedbackCard
+              key={feedbackToshow?.name}
+              testimonial={feedbackToshow}
+              {...feedbackToshow}
+              animation={false}
+            />
+          )}
         </Modal>
         <motion.div variants={textVariant()}>
           <SectionHeader
@@ -97,6 +103,17 @@ const Feedbacks = () => {
                 />
               </div>
             ))}
+            <a
+            href={"https://www.linkedin.com/in/mortezaalipour/details/recommendations/?detailScreenTabIndex=0"}
+            target="_blank"
+            rel="noreferrer"
+            className="ml-auto mr-3 flex items-center"
+          >
+            <div className="mx-1">See on Linkedin</div>
+            <div>
+              <ArrowSvg />
+            </div>
+          </a>
           </div>
         </Swiper>
       </div>

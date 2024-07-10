@@ -3,6 +3,7 @@ import { Fragment, Suspense, lazy } from "react";
 import AnimatedCursor from "react-animated-cursor";
 import "react-toastify/dist/ReactToastify.css";
 import { ModalProvider } from "./context/ModalContext";
+import { ThemeProvider } from "./context/ThemeContext";
 
 function App() {
   const About = lazy(() => import("./components/About"));
@@ -16,38 +17,39 @@ function App() {
 
   return (
     <Fragment>
-      <ModalProvider>
-        {window.innerWidth > 500 && <AnimatedCursor color="93, 134, 185" />}
-        <BrowserRouter>
-          <div className="relative bg-primary">
-           
-            <div className="">
+      <ThemeProvider>
+        <ModalProvider>
+          {window.innerWidth > 500 && <AnimatedCursor color="93, 134, 185" />}
+          <BrowserRouter>
+            <div className="relative bg-primary">
+              <div className="">
+                <Suspense>
+                  <Navbar />
+                  <Hero />
+                </Suspense>
+              </div>
               <Suspense>
-                <Navbar />
-                <Hero />
+                <About />
+              </Suspense>
+              <Suspense>
+                <Experience />
+              </Suspense>
+              <Suspense>
+                <Tech />
+              </Suspense>
+              <Suspense>
+                <Works />
+              </Suspense>
+              <Suspense>
+                <Feedbacks />
+              </Suspense>
+              <Suspense>
+                <ContactSection />
               </Suspense>
             </div>
-            <Suspense>
-              <About />
-            </Suspense>
-            <Suspense>
-              <Experience />
-            </Suspense>
-            <Suspense>
-              <Tech />
-            </Suspense>
-            <Suspense>
-              <Works />
-            </Suspense>
-            <Suspense>
-              <Feedbacks />
-            </Suspense>
-            <Suspense>
-              <ContactSection />
-            </Suspense>
-          </div>
-        </BrowserRouter>
-      </ModalProvider>
+          </BrowserRouter>
+        </ModalProvider>
+      </ThemeProvider>
     </Fragment>
   );
 }

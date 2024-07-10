@@ -55,8 +55,18 @@ ExperienceCard.propTypes = {
 };
 
 const Experience = () => {
+  // const { theme, toggleTheme } = useContext(ThemeContext);
   return (
     <Fragment>
+      {/* <button
+        onClick={toggleTheme}
+        style={{
+          background: theme === "dark" ? "black" : "white",
+          color: theme !== "dark" ? "black" : "white",
+        }}
+      >
+        Toggle Theme
+      </button> */}
       <SectionHeader
         sectionHeader={"Work Experience."}
         sectionParagraph={"What I have done so far"}

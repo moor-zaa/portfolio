@@ -27,6 +27,9 @@ import {
   telegram,
   github,
   whatsapp,
+  saham,
+  pouya,
+  maziar,
 } from "../assets";
 
 export const navLinks = [
@@ -112,32 +115,25 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Angular Developer",
-    company_name: "Nilasoft",
-    icon: nilasoft,
-    iconBg: "#ffffff",
-    date: "Jan 2018 - Apr 2019",
-    points: [
-      "2 Projects with Angular framework.",
-      "Designed and developed responsive websites using HTML, CSS, and JavaScript.",
-      "Collaborated with UI/UX designers to implement visually appealing and user-friendly interfaces.",
-      "Integrated third-party APIs and libraries to enhance website functionality.",
-    ],
-  },
-  {
     title: "Frontend Developer",
-    company_name: "Freelance",
-    icon: freelance,
+    company_name: "QUBY",
+    icon: quby,
     iconBg: "#ffffff",
-    date: "Apr 2019 - Dec 2019",
+    date: "Jun 2021 - Present",
     points: [
-      "1 Project with Angular framework.",
-      "1 project with React js.",
-      "Designed and developed responsive websites using HTML, CSS, and JavaScript.",
-      "Collaborated with UI/UX designers to implement visually appealing and user-friendly interfaces.",
-      "Integrated third-party APIs and libraries to enhance website functionality.",
+      "Developed a web application that attracted more than 25,000 users.",
+      "Collaborated with back-end developers to establish more than 6 projects",
+      "upervised 1 intern, guiding him in developing and teaching new methods and technologies.",
+      "Worked on about 3 projects related to the Internet of Things.",
+      "Implemented responsive and user-friendly web interfaces using HTML, CSS, and JavaScript for more than 10 projects, resulting in a 30% increase in user engagement.",
+      "Collaborated closely with 3 designers and 2 back-end developers to successfully integrate and implement user interface designs",
+      "Conducted daily code reviews for 1 intern, providing timely feedback.",
+      "Experience with functional programming concepts",
+      "Participating in producing maintainable code in large codebases in more than four projects",
+      "Experience with two version control systems such as Git and Azure",
     ],
   },
+
   {
     title: "Frontend Developer",
     company_name: "DATIS Elevator",
@@ -145,25 +141,36 @@ const experiences = [
     iconBg: "#ffffff",
     date: "Dec 2019 - May 2021",
     points: [
-      "3 Projects with React js.",
-      "Designed and developed responsive websites using HTML, CSS, and JavaScript.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Collaborated with UI/UX designers to implement visually appealing and user-friendly interfaces.",
+      "Collaborated with 2 back-end developers to develop three Admin dashboard templates",
+      "Achieved a 40% improvement in website performance by strategically reducing page load times, resulting in enhanced overall site functionality.",
+      "Improved one website’s quality by promptly addressing bugs through debugging and testing, ensuring robust and seamless user experiences",
+      "Experience with front-end automation tools and task runners.",
     ],
   },
   {
     title: "Frontend Developer",
-    company_name: "QUBY",
-    icon: quby,
+    company_name: "yomoBit UG",
+    icon: freelance,
     iconBg: "#ffffff",
-    date: "Jul 2021 - Present",
+    date: "Jan 2019 - Dec 2019",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-      "Optimized website performance by reducing page load times and improving overall site speed.",
-      "Resolved bugs and issues by conducting thorough debugging and testing of web applications.",
+      " More than 5 projects, including A-EYES and Bencherz, utilizing Angular and React.",
+      " Conducted comprehensive compatibility testing for applications and websites across various devices and browsers.",
+      "Mentored 2 intern front-end developers in learning and developing projects",
+      "Created one financial application powered by two powerful technologies Angular and Electron for Windows and macOS.",
+    ],
+  },
+  {
+    title: "Angular Developer",
+    company_name: "Nilasoft",
+    icon: nilasoft,
+    iconBg: "#ffffff",
+    date: "Jan 2018 - Jan 2019",
+    points: [
+      "Collaborated with a UI/UX designer and 2 front-end developers to seamlessly integrate visually captivating and intuitive user interfaces.",
+      "Coordinated with three backend developers to implement changes and conduct testing for more than two websites",
+      "Enhanced website functionality by integrating third-party APIs and libraries.",
+      "Two responsive websites using the Angular framework.",
     ],
   },
 ];
@@ -182,8 +189,7 @@ const testimonials = [
     name: "Saham Hendinejad",
     designation: "CEO",
     company: "Quby",
-    image:
-      "https://media.licdn.com/dms/image/C4E03AQGKS-2343r1pQ/profile-displayphoto-shrink_200_200/0/1622371661327?e=1707955200&v=beta&t=AfG5RrYnR9erDMEh8qcpUXcRWqWdtWdiAWs_6fEdfuo",
+    image: saham,
   },
   {
     testimonial: `Morteza is one of our Front-end developers who has been collaborating with us for approximately 4 years. He is a hardworking and dedicated individual, giving his all to ensure the success of every project he undertakes. Morteza is known for his perseverance, and you can be confident that he puts in every effort to achieve the desired results.
@@ -192,8 +198,7 @@ const testimonials = [
     name: "Pouya Mansouri",
     designation: "CEO",
     company: "Mehbang",
-    image:
-      "https://media.licdn.com/dms/image/D4D03AQEBAsryNpfGUA/profile-displayphoto-shrink_100_100/0/1676703738010?e=1707955200&v=beta&t=7YPKFZws8uTCrAcTp2oNlVVeR8Tkwmk8sJdbCHpSoIE",
+    image: pouya,
   },
   {
     testimonial: `Morteza and I have known each other for about 13-14 years!
@@ -204,8 +209,7 @@ const testimonials = [
     name: "Maziar Karimi",
     designation: "Backend developer",
     company: "MediaMarktSaturn",
-    image:
-      "https://media.licdn.com/dms/image/D4E03AQHbGdZDPSppxw/profile-displayphoto-shrink_100_100/0/1693998486764?e=1712793600&v=beta&t=-kGXCY6gEcOqP5B26ctnVNMRlumT0hbHxZ3BRae2BhQ",
+    image: maziar,
   },
 ];
 

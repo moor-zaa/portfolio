@@ -22,7 +22,7 @@ import tailwind from "./tech/tailwind.svg";
 import typescript from "./tech/typescript.svg";
 import threejs from "./tech/threejs.svg";
 
-import freelance from "./company/freelance.svg";
+import freelance from "./company/yomoBit.jpg";
 import datis from "./company/datis.svg";
 import nilasoft from "./company/nilasoft.jpg";
 import quby from "./company/quby.jpg";
@@ -32,7 +32,14 @@ import bencherz from "./bencherz.png";
 import qubyWebapp from "./quby-webapp.png";
 import aEyesWebapp from "./a-eyes.png";
 
+import saham from "../assets/recommendations/saham.jpg";
+import pouya from "../assets/recommendations/pouya.jpg";
+import maziar from "../assets/recommendations/maziar.jpg";
+
 export {
+  saham,
+  pouya,
+  maziar,
   logo,
   backend,
   telegram,
