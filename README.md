@@ -1,6 +1,6 @@
 # Morteza Alipour - Portfolio
 
-Welcome to the repository for my personal portfolio website! This website showcases my work, projects, skills, and experiences. You can visit the live site at [mortezaalipour.ir](https://mortezaalipour.ir).
+Welcome to the repository for my personal portfolio website! This website showcases my work, projects, skills, and experiences.
 
 ## Table of Contents
 
