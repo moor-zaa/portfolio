@@ -30,6 +30,7 @@ import {
   saham,
   pouya,
   maziar,
+  dextrading,
 } from "../assets";
 
 export const navLinks = [
@@ -116,10 +117,26 @@ const technologies = [
 const experiences = [
   {
     title: "Frontend Developer",
+    company_name: "Dextrading",
+    icon: dextrading,
+    iconBg: "#ffffff",
+    date: "July 2024 - Present",
+    points: [
+      "Developed a web platform that engaged more than a million users.",
+      "Collaborated with back-end developers to establish more than 2 projects",
+      "Optimized website SEO and accessibility, increasing Lighthouse scores from 30 to 100 (SEO) and 40 to 96 (accessibility)",
+      "Optimize website performance, improving load times and ensuring cross-browser compatibility.",
+      "Collaborate with blockchain and backend teams to integrate APIs",
+      "Stay up to date with emerging trends in crypto markets and technologies to continuously improve platform performance",
+      "improving search engine visibility and user experience.",
+    ],
+  },
+  {
+    title: "Frontend Developer",
     company_name: "QUBY",
     icon: quby,
     iconBg: "#ffffff",
-    date: "Jun 2021 - Present",
+    date: "Jun 2021 - July 2024",
     points: [
       "Developed a web application that attracted more than 25,000 users.",
       "Collaborated with back-end developers to establish more than 6 projects",

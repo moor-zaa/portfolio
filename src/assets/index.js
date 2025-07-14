@@ -26,6 +26,7 @@ import freelance from "./company/yomoBit.jpg";
 import datis from "./company/datis.svg";
 import nilasoft from "./company/nilasoft.jpg";
 import quby from "./company/quby.jpg";
+import dextrading from "./company/dextrading.png";
 
 import qubyWebsite from "./quby-website.jpg";
 import bencherz from "./bencherz.png";
@@ -52,6 +53,7 @@ export {
   menu,
   close,
   css,
+  dextrading,
   figma,
   git,
   html,

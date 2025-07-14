@@ -46,7 +46,7 @@ const Hero = () => {
         </div>
         <div>
           <h1 className={`${styles.heroHeadText} text-whtie`}>
-            Hi, I'm <span className="text-[#5D86B9]">Morteza</span>
+            Hi, I'm <span className="text-[#5D86B9]">Mori</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I develop user interfaces
@@ -57,7 +57,7 @@ const Hero = () => {
             animate={{ width: 202, opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.1, easings: "ease-out" }}
             onClick={handleLogEvent}
-            href="/Resume - Morteza Alipour.pdf"
+            href="/Resume - Mori Alipour.pdf"
             download
             className="download-cv"
           >
