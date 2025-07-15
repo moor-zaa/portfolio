@@ -33,10 +33,9 @@ const Contact = () => {
         "service_xu96ge8",
         "template_ybq3hmx",
         {
-          from_name: form.name,
           to_name: "Morteza",
           from_name: form.email,
-          to_email: "mortezaalipour1777@gmail.com",
+          to_email: "mori.alipour95@gmail.com",
           message: form.message,
         },
         "I8EB57sH9HO3Pdkym"
