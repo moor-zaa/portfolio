@@ -9,6 +9,7 @@ import EarthCanvas from "./canvas/Earth";
 import { ToastContainer, toast } from "react-toastify";
 import { StarsCanvas } from "./canvas";
 import { logEvent } from "firebase/analytics";
+import { analytics } from "../shared/ScrollTrackingComponent";
 
 const Contact = () => {
   const initialForm = {
