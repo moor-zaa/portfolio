@@ -30,7 +30,9 @@ import {
   saham,
   pouya,
   maziar,
+  dextradingImage,
   dextrading,
+  bitfaWeb,
 } from "../assets";
 
 export const navLinks = [
@@ -232,37 +234,36 @@ const testimonials = [
 
 const projects = [
   {
-    name: "QUBY Website",
+    name: "Dextrading",
+    webapp: false,
     description:
-      "The QUBY website is a fully responsive single page designed to familiarize users with the company and its services. Users can place orders for its intelligent refrigerators tailored to meet the needs of their companies and organizations. The website also provides insights into its cutting-edge IoT technologies.",
+      "dextrading.com is a modern analytics platform built for Decentralized Exchange (DEX) traders. It provides users with real-time on-chain insights, wallet tracking tools, and AI-powered copy trading strategies, helping both novice and professional traders make data-driven decisions in the fast-moving DeFi ecosystem.",
     tags: [
       {
-        name: "HTMLS",
+        name: "Next js",
         color: "blue-text-gradient",
       },
       {
-        name: "CSS",
+        name: "Thanstack",
         color: "green-text-gradient",
       },
       {
-        name: "Javascript",
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
       {
-        name: "Bootstrap",
+        name: "Zustand",
         color: "orange-text-gradient",
       },
     ],
-    webapp: false,
-    image: qubyWebsite,
-    url: "https://quby.ir",
-    // source_code_link: "https://github.com/",
+    image: dextradingImage,
+    url: "https://dextrading.com",
   },
   {
     name: "Bencherz",
     webapp: true,
     description:
-      "This is a fantasy football web application designed to incorporate cryptocurrency and NFTs, aiming to introduce the Play-to-Earn feature. The project is set to run on top-tier blockchain tokens like Ethereum and Solana, with a forthcoming release. The application promises an engaging experience by intertwining fantasy football with blockchain technology, creating a new paradigm for users.",
+      "This is a fantasy football web application designed to incorporate cryptocurrency and NFTs, aiming to introduce the Play-to-Earn feature. The project is set to run on top-tier blockchain tokens like Ethereum and Solana, with a forthcoming release. The application promises an engaging experience by intertwining fantasy football with blockchain technology.",
     tags: [
       {
         name: "React",
@@ -335,12 +336,67 @@ const projects = [
     image: aEyesWebapp,
     url: "https://a-eyes.app",
   },
+  {
+    name: "QUBY Website",
+    description:
+      "The QUBY website is a fully responsive single page designed to familiarize users with the company and its services. Users can place orders for its intelligent refrigerators tailored to meet the needs of their companies and organizations. The website also provides insights into its cutting-edge IoT technologies.",
+    tags: [
+      {
+        name: "HTMLS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "orange-text-gradient",
+      },
+    ],
+    webapp: false,
+    image: qubyWebsite,
+    url: "https://quby.ir",
+    // source_code_link: "https://github.com/",
+  },
+  {
+    name: "Bitfa Web",
+    webapp: false,
+    description:
+      "Bitfa (bitfa.io) is an Iran-based crypto analytics and education platform offering real-time market insights, in-depth token analyses, and curated DeFi/NFT tutorials. It also operates through social channels with a strong regional presence.",
+    tags: [
+      {
+        name: "Next js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Socket.io",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: bitfaWeb,
+    url: "https://bitfa.io",
+  },
+
+
 ];
 
 const socials = [
   {
     name: "linkedin",
-    url: "https://www.linkedin.com/in/mortezaalipour/",
+    url: "https://www.linkedin.com/in/morialipour/",
     image: linkedin,
   },
   {
@@ -355,7 +411,7 @@ const socials = [
   },
   {
     name: "whatsapp",
-    url: "https://wa.me/989394652986",
+    url: "https://wa.me/989910511071",
     image: whatsapp,
   },
 ];

@@ -7,7 +7,7 @@ import ArrowSvg from "../assets/svgs/ArrowSvg";
 
 export const ProjectCard = ({ index, name, description, tags, image, url }) => {
   return (
-    <motion.div variants={slideIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div variants={fadeIn("", "", index * 0.5, 0.75)}>
       <div
         options={{
           max: 45,

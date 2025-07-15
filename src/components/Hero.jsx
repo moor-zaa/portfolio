@@ -25,6 +25,7 @@ const Hero = () => {
             href={social.url}
             key={social.name}
             className="social-item"
+            target="_blank"
           >
             <div className="social--item__first-layer"></div>
             <div className="social--item__second-layer"></div>

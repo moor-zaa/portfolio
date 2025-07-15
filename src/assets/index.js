@@ -32,12 +32,15 @@ import qubyWebsite from "./quby-website.jpg";
 import bencherz from "./bencherz.png";
 import qubyWebapp from "./quby-webapp.png";
 import aEyesWebapp from "./a-eyes.png";
+import dextradingImage from "./dextrading-web.png";
+import bitfaWeb from "./bitfa.png";
 
 import saham from "../assets/recommendations/saham.jpg";
 import pouya from "../assets/recommendations/pouya.jpg";
 import maziar from "../assets/recommendations/maziar.jpg";
 
 export {
+  bitfaWeb,
   saham,
   pouya,
   maziar,
@@ -72,4 +75,5 @@ export {
   bencherz,
   qubyWebapp,
   aEyesWebapp,
+  dextradingImage
 };

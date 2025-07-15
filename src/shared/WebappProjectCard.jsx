@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import { fadeIn, slideIn } from "../utils/motion";
+import { fadeIn, slideIn, zoomIn } from "../utils/motion";
 import { motion } from "framer-motion";
 import ArrowSvg from "../assets/svgs/ArrowSvg";
 import Loading from "../assets/svgs/Loading";
@@ -13,7 +13,7 @@ export const WebappProjectCard = ({
   url,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div variants={fadeIn("", "", index * 0.5, 0.75)}>
       <div
         options={{
           max: 45,
