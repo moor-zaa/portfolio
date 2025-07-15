@@ -31,7 +31,7 @@ const Contact = () => {
     setLoading(true);
     emailjs
       .send(
-        "service_xu96ge8",
+        "service_az7h3ys",
         "template_ybq3hmx",
         {
           to_name: "Morteza",
@@ -39,7 +39,7 @@ const Contact = () => {
           to_email: "mori.alipour95@gmail.com",
           message: form.message,
         },
-        "I8EB57sH9HO3Pdkym"
+        "SG9_au-SrQrzeIfFA"
       )
       .then(() => {
         setLoading(false);
